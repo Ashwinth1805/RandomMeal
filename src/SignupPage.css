@@ -1,0 +1,16 @@
+/* src/SignupPage.css */
+.signup-page {
+   max-width: 400px;         /* Limit the width */
+  margin: 20px auto;        /* Center horizontally with margin */
+  padding: 20px;            /* Padding inside the form */
+  border: 1px solid #ccc;   /* Light border */
+  border-radius: 8px;       /* Rounded corners */
+  background-color: #f9f9f9;/* Light background */
+  font-family: Arial, sans-serif;
+}
+
+.signup-form input, .signup-form button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}

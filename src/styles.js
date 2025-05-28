@@ -1,0 +1,71 @@
+// styles.js
+export const colors = {
+  orange: '#E59400',
+  orangeHover: '#FFAA00',
+  shadowOrangeLight: 'rgba(229, 148, 0, 0.4)',
+  darkBackground: '#121212',
+  darkSurface: '#1E1E1E',
+  darkTextPrimary: '#E0E0E0',
+  darkTextSecondary: '#AAAAAA',
+  darkInputBackground: '#2C2C2C',
+  darkInputBorder: '#444',
+};
+
+export const styles = {
+  page: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    backgroundColor: colors.darkBackground,
+  },
+  formContainer: {
+    width: '350px',
+    padding: '30px',
+    borderRadius: '8px',
+    boxShadow: '0 4px 20px rgba(0,0,0,0.7)',
+    backgroundColor: colors.darkSurface,
+  },
+  title: {
+    marginBottom: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+    color: colors.orange,
+    textAlign: 'center',
+  },
+  label: {
+    display: 'block',
+    marginBottom: '5px',
+    color: colors.darkTextPrimary,
+    fontWeight: '600',
+  },
+  input: {
+    width: '100%',
+    padding: '10px',
+    marginBottom: '15px',
+    borderRadius: '5px',
+    border: `1px solid ${colors.darkInputBorder}`,
+    fontSize: '14px',
+    backgroundColor: colors.darkInputBackground,
+    color: colors.darkTextPrimary,
+    transition: 'all 0.3s ease',
+    outline: 'none',
+  },
+  inputFocus: {
+    borderColor: colors.orange,
+    boxShadow: `0 0 5px ${colors.orange}`,
+  },
+  button: {
+    width: '100%',
+    padding: '12px',
+    backgroundColor: colors.orange,
+    color: '#121212',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontWeight: '700',
+    fontSize: '16px',
+    transition: 'all 0.3s ease',
+    boxShadow: `0 6px 20px ${colors.shadowOrangeLight}`,
+  },
+};
